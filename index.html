@@ -36,6 +36,14 @@
             outline: none;
         }
     </style>
+    <script>
+        (function(){
+        	setTimeout(()=>{
+        		document.getElementsByTagName('video')[0].play();
+				console.log('Playing. Fuck you chrome.');
+			},1000)
+        })()
+    </script>
 </head>
 <body>
 <video autoplay loop>
